@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\RoomGenerator\Assets\Scripts\MiscLayer.cs">
+    <Files>
+      <File FileName="..\..\RoomGenerator\Assets\Scripts\MiscLayer.cs" Line="52" Column="3" />
+      <File FileName="..\..\RoomGenerator\Assets\Scripts\FloorLayer.cs" Line="5" Column="39" />
+      <File FileName="..\..\RoomGenerator\Assets\Scripts\Layer.cs" Line="3" Column="34" />
+      <File FileName="..\..\RoomGenerator\Assets\Scripts\Tile.cs" Line="2" Column="26" />
+      <File FileName="..\..\RoomGenerator\Assets\Scripts\WallLayer.cs" Line="13" Column="63" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

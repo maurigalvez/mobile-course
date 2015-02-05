@@ -1,0 +1,1103 @@
+fileFormatVersion: 2
+guid: ac120a83ff403c3428511896adbac000
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Link_Sprite_0
+    21300002: Link_Sprite_1
+    21300004: Link_Sprite_2
+    21300006: Link_Sprite_3
+    21300008: Link_Sprite_4
+    21300010: Link_Sprite_5
+    21300012: Link_Sprite_6
+    21300014: Link_Sprite_7
+    21300016: Link_Sprite_8
+    21300018: Link_Sprite_9
+    21300020: Link_Sprite_10
+    21300022: Link_Sprite_11
+    21300024: Link_Sprite_12
+    21300026: Link_Sprite_13
+    21300028: Link_Sprite_14
+    21300030: Link_Sprite_15
+    21300032: Link_Sprite_16
+    21300034: Link_Sprite_17
+    21300036: Link_Sprite_18
+    21300038: Link_Sprite_19
+    21300040: Link_Sprite_20
+    21300042: Link_Sprite_21
+    21300044: Link_Sprite_22
+    21300046: Link_Sprite_23
+    21300048: Link_Sprite_24
+    21300050: Link_Sprite_25
+    21300052: Link_Sprite_26
+    21300054: Link_Sprite_27
+    21300056: Link_Sprite_28
+    21300058: Link_Sprite_29
+    21300060: Link_Sprite_30
+    21300062: Link_Sprite_31
+    21300064: Link_Sprite_32
+    21300066: Link_Sprite_33
+    21300068: Link_Sprite_34
+    21300070: Link_Sprite_35
+    21300072: Link_Sprite_36
+    21300074: Link_Sprite_37
+    21300076: Link_Sprite_38
+    21300078: Link_Sprite_39
+    21300080: Link_Sprite_40
+    21300082: Link_Sprite_41
+    21300084: Link_Sprite_42
+    21300086: Link_Sprite_43
+    21300088: Link_Sprite_44
+    21300090: Link_Sprite_45
+    21300092: Link_Sprite_46
+    21300094: Link_Sprite_47
+    21300096: Link_Sprite_48
+    21300098: Link_Sprite_49
+    21300100: Link_Sprite_50
+    21300102: Link_Sprite_51
+    21300104: Link_Sprite_52
+    21300106: Link_Sprite_53
+    21300108: Link_Sprite_54
+    21300110: Link_Sprite_55
+    21300112: Link_Sprite_56
+    21300114: Link_Sprite_57
+    21300116: Link_Sprite_58
+    21300118: Link_Sprite_59
+    21300120: Link_Sprite_60
+    21300122: Link_Sprite_61
+    21300124: Link_Sprite_62
+    21300126: Link_Sprite_63
+    21300128: Link_Sprite_64
+    21300130: Link_Sprite_65
+    21300132: Link_Sprite_66
+    21300134: Link_Sprite_67
+    21300136: Link_Sprite_68
+    21300138: Link_Sprite_69
+    21300140: Link_Sprite_70
+    21300142: Link_Sprite_71
+    21300144: Link_Sprite_72
+    21300146: Link_Sprite_73
+    21300148: Link_Sprite_74
+    21300150: Link_Sprite_75
+    21300152: Link_Sprite_76
+    21300154: Link_Sprite_77
+    21300156: Link_Sprite_78
+    21300158: Link_Sprite_79
+    21300160: Link_Sprite_80
+    21300162: Link_Sprite_81
+    21300164: Link_Sprite_82
+    21300166: Link_Sprite_83
+    21300168: Link_Sprite_84
+    21300170: Link_Sprite_85
+    21300172: Link_Sprite_86
+    21300174: Link_Sprite_87
+    21300176: Link_Sprite_88
+    21300178: Link_Sprite_89
+    21300180: Link_Sprite_90
+    21300182: Link_Sprite_91
+    21300184: Link_Sprite_92
+    21300186: Link_Sprite_93
+    21300188: Link_Sprite_94
+    21300190: Link_Sprite_95
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 50
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Link_Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 224
+        width: 18
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 224
+        width: 18
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 224
+        width: 18
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 224
+        width: 18
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 224
+        width: 18
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 224
+        width: 18
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 224
+        width: 18
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 224
+        width: 18
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 224
+        width: 18
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 224
+        width: 18
+        height: 26
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 224
+        width: 18
+        height: 26
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 224
+        width: 18
+        height: 26
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 21
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 192
+        width: 21
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 21
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_15
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 192
+        width: 20
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_16
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 192
+        width: 20
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_17
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 192
+        width: 20
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_18
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 192
+        width: 20
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_19
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 192
+        width: 20
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_20
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 192
+        width: 20
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_21
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 192
+        width: 20
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_22
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 192
+        width: 20
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_23
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 192
+        width: 20
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 160
+        width: 18
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_25
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 160
+        width: 18
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_26
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 160
+        width: 18
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_27
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 160
+        width: 18
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_28
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 160
+        width: 18
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_29
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 160
+        width: 18
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_30
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 160
+        width: 18
+        height: 26
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_31
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 160
+        width: 18
+        height: 26
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_32
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 160
+        width: 18
+        height: 26
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_33
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 160
+        width: 18
+        height: 26
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_34
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 160
+        width: 18
+        height: 26
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_35
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 160
+        width: 18
+        height: 26
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_36
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 128
+        width: 21
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_37
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 128
+        width: 21
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_38
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 128
+        width: 21
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_39
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 128
+        width: 20
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_40
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 128
+        width: 20
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_41
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 128
+        width: 20
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_42
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 128
+        width: 20
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_43
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 128
+        width: 20
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_44
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 128
+        width: 20
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_45
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 128
+        width: 20
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_46
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 128
+        width: 20
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_47
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 128
+        width: 20
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_48
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 96
+        width: 18
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_49
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 96
+        width: 18
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_50
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 96
+        width: 18
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_51
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 96
+        width: 18
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_52
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 96
+        width: 18
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_53
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 96
+        width: 18
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_54
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 96
+        width: 18
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_55
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 96
+        width: 18
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_56
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 96
+        width: 18
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_57
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 96
+        width: 18
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_58
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 96
+        width: 18
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_59
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 96
+        width: 18
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_60
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 64
+        width: 20
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_61
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 64
+        width: 20
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_62
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 64
+        width: 20
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_63
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 64
+        width: 21
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_64
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 21
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_65
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 64
+        width: 21
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_66
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 64
+        width: 19
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_67
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 64
+        width: 19
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_68
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 64
+        width: 19
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_69
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 64
+        width: 19
+        height: 26
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_70
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 64
+        width: 19
+        height: 26
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_71
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 64
+        width: 19
+        height: 26
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_72
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 32
+        width: 18
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_73
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 32
+        width: 18
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_74
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 32
+        width: 18
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_75
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 32
+        width: 18
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_76
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 32
+        width: 18
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_77
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 32
+        width: 18
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_78
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 32
+        width: 18
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_79
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 32
+        width: 18
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_80
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 32
+        width: 18
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_81
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 32
+        width: 18
+        height: 26
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_82
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 32
+        width: 18
+        height: 26
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_83
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 32
+        width: 18
+        height: 26
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_84
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 20
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_85
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 0
+        width: 20
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_86
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 0
+        width: 20
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_87
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 0
+        width: 21
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_88
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 0
+        width: 21
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_89
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 0
+        width: 21
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_90
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 0
+        width: 19
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_91
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 0
+        width: 19
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_92
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 0
+        width: 19
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_93
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 0
+        width: 19
+        height: 26
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_94
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 0
+        width: 19
+        height: 26
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Link_Sprite_95
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 0
+        width: 19
+        height: 26
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

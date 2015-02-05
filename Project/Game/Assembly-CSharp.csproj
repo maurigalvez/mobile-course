@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_0;UNITY_4_6;UNITY_IPHONE;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;UNITY_IPHONE_API;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;UNITY_IOS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Resources\Scripts\DecisionMgr\DecisionMgr.cs" />
+     <Compile Include="Assets\Resources\Scripts\DecisionMgr\Logic.cs" />
+     <Compile Include="Assets\Resources\Scripts\GameLogic\Condition\AxisCondition.cs" />
+     <Compile Include="Assets\Resources\Scripts\GameLogic\Condition\AxisRawCondition.cs" />
+     <Compile Include="Assets\Resources\Scripts\GameLogic\Condition\CollideWithType.cs" />
+     <Compile Include="Assets\Resources\Scripts\GameLogic\Condition\CollisionCondition.cs" />
+     <Compile Include="Assets\Resources\Scripts\GameLogic\Condition\Condition.cs" />
+     <Compile Include="Assets\Resources\Scripts\GameLogic\Condition\DistanceCondition.cs" />
+     <Compile Include="Assets\Resources\Scripts\GameLogic\Condition\KeyPressCondition.cs" />
+     <Compile Include="Assets\Resources\Scripts\GameLogic\Condition\MouseCondition.cs" />
+     <Compile Include="Assets\Resources\Scripts\GameLogic\Condition\OnClickCondition.cs" />
+     <Compile Include="Assets\Resources\Scripts\GameLogic\Condition\TimerCondition.cs" />
+     <Compile Include="Assets\Resources\Scripts\GameLogic\Condition\ToggleCondition.cs" />
+     <Compile Include="Assets\Resources\Scripts\GameLogic\Condition\TrueCondition.cs" />
+     <Compile Include="Assets\Resources\Scripts\GameLogic\Data\CollectionData.cs" />
+     <Compile Include="Assets\Resources\Scripts\GameLogic\Data\CollisionData.cs" />
+     <Compile Include="Assets\Resources\Scripts\GameLogic\Data\Data.cs" />
+     <Compile Include="Assets\Resources\Scripts\GameLogic\Data\FloatData.cs" />
+     <Compile Include="Assets\Resources\Scripts\GameLogic\Data\GUiTextData.cs" />
+     <Compile Include="Assets\Resources\Scripts\GameLogic\Data\GameObjData.cs" />
+     <Compile Include="Assets\Resources\Scripts\GameLogic\Data\IntData.cs" />
+     <Compile Include="Assets\Resources\Scripts\GameLogic\Data\StringData.cs" />
+     <Compile Include="Assets\Resources\Scripts\GameLogic\Data\UniqueData.cs" />
+     <Compile Include="Assets\Resources\Scripts\GameLogic\Data\Vector3Data.cs" />
+     <Compile Include="Assets\Resources\Scripts\GameLogic\Helpers\CollisionHelper.cs" />
+     <Compile Include="Assets\Resources\Scripts\GameLogic\Helpers\ConditionHelper.cs" />
+     <Compile Include="Assets\Resources\Scripts\GameLogic\Helpers\OnMouseDownHelper.cs" />
+     <Compile Include="Assets\Resources\Scripts\GameLogic\Response\CollisionResponse.cs" />
+     <Compile Include="Assets\Resources\Scripts\GameLogic\Response\DebugResponse.cs" />
+     <Compile Include="Assets\Resources\Scripts\GameLogic\Response\ForceResponse.cs" />
+     <Compile Include="Assets\Resources\Scripts\GameLogic\Response\GetCollisionPositionResponse.cs" />
+     <Compile Include="Assets\Resources\Scripts\GameLogic\Response\InstantiateResponse.cs" />
+     <Compile Include="Assets\Resources\Scripts\GameLogic\Response\ModifyPropertyResponse.cs" />
+     <Compile Include="Assets\Resources\Scripts\GameLogic\Response\ResetClickResponse.cs" />
+     <Compile Include="Assets\Resources\Scripts\GameLogic\Response\Response.cs" />
+     <Compile Include="Assets\Resources\Scripts\GameLogic\Response\TranslateResponse.cs" />
+     <Compile Include="Assets\Resources\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Resources\Scripts\HeroScript.cs" />
+     <Compile Include="Assets\Resources\Scripts\InventoryScripts\InventoryObject.cs" />
+     <Compile Include="Assets\Resources\Scripts\InventoryScripts\Pickup.cs" />
+     <Compile Include="Assets\Resources\Scripts\IsDoor.cs" />
+     <Compile Include="Assets\Resources\Scripts\Mixins\CollectionEntry.cs" />
+     <Compile Include="Assets\Resources\Scripts\Mixins\DrawsGizmos.cs" />
+     <Compile Include="Assets\Resources\Scripts\Mixins\EquipmentSlotEntry.cs" />
+     <Compile Include="Assets\Resources\Scripts\Mixins\Follows.cs" />
+     <Compile Include="Assets\Resources\Scripts\Mixins\IsBuffable.cs" />
+     <Compile Include="Assets\Resources\Scripts\Mixins\IsCollectible.cs" />
+     <Compile Include="Assets\Resources\Scripts\Mixins\IsConsumable.cs" />
+     <Compile Include="Assets\Resources\Scripts\Mixins\IsEquipable.cs" />
+     <Compile Include="Assets\Resources\Scripts\Mixins\IsFloatAnimatible.cs" />
+     <Compile Include="Assets\Resources\Scripts\Mixins\IsInventoriable.cs" />
+     <Compile Include="Assets\Resources\Scripts\Mixins\IsLimited.cs" />
+     <Compile Include="Assets\Resources\Scripts\Mixins\IsPassive.cs" />
+     <Compile Include="Assets\Resources\Scripts\Mixins\IsPlayer.cs" />
+     <Compile Include="Assets\Resources\Scripts\Mixins\IsTouchable.cs" />
+     <Compile Include="Assets\Resources\Scripts\Mixins\IsTriggable.cs" />
+     <Compile Include="Assets\Resources\Scripts\Mixins\IsUsable.cs" />
+     <Compile Include="Assets\Resources\Scripts\Mixins\Mixin.cs" />
+     <Compile Include="Assets\Resources\Scripts\ScreenScript.cs" />
+     <Compile Include="Assets\Resources\Scripts\UIManager.cs" />
+     <Compile Include="Assets\Resources\Scripts\cameraScript.cs" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
