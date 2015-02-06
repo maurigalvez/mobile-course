@@ -4,9 +4,10 @@ using System.Collections.Generic;
 public class IsDoor : Mixin
 {
    public List<string> TouchTypes;
-   public GameObject destination;               // Destination of this door
-   public Transform destScreen;                 // Screen of destination
-   public bool isActive = false;                // True if it's active, false otherwise.
+   public GameObject destination;                  // Destination of this door
+   public Transform destScreen;                    // Screen of destination
+   public cameraScript camera;                     // Instance of camera
+   //public bool isActive = false;                // True if it's active, false otherwise.
    public float offset;
 	// Use this for initialization
 	void Start () 
@@ -33,7 +34,8 @@ public class IsDoor : Mixin
             // transport to destination
             //----------------
             other.gameObject.transform.position = new Vector3(newPosition.x, newPosition.y + offset, newPosition.z);
-            // get IsDoorComponent
+            // set camera
+            camera.setScreen(destScreen);
          }
       }
    }
