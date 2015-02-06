@@ -6,5 +6,5 @@ public class ScreenScript : MonoBehaviour
    public Transform rightScreen;
    public Transform leftScreen;
    public Transform topScreen;
-   public Transform bottomScreen;
+   public Transform bottomScreen;  
 }

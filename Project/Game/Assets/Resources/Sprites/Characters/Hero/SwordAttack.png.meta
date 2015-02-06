@@ -1,0 +1,399 @@
+fileFormatVersion: 2
+guid: b50e797c041e14940a0683014eb8b7c8
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SwordAttack_0
+    21300002: SwordAttack_1
+    21300004: SwordAttack_2
+    21300006: SwordAttack_3
+    21300008: SwordAttack_4
+    21300010: SwordAttack_5
+    21300012: SwordAttack_6
+    21300014: SwordAttack_7
+    21300016: SwordAttack_8
+    21300018: SwordAttack_9
+    21300020: SwordAttack_10
+    21300022: SwordAttack_11
+    21300024: SwordAttack_12
+    21300026: SwordAttack_13
+    21300028: SwordAttack_14
+    21300030: SwordAttack_15
+    21300032: SwordAttack_16
+    21300034: SwordAttack_17
+    21300036: SwordAttack_18
+    21300038: SwordAttack_19
+    21300040: SwordAttack_20
+    21300042: SwordAttack_21
+    21300044: SwordAttack_22
+    21300046: SwordAttack_23
+    21300048: SwordAttack_24
+    21300050: SwordAttack_25
+    21300052: SwordAttack_26
+    21300054: SwordAttack_27
+    21300056: SwordAttack_28
+    21300058: SwordAttack_29
+    21300060: SwordAttack_30
+    21300062: SwordAttack_31
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 35
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: SwordAttack_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 149
+        width: 28
+        height: 22
+      alignment: 9
+      pivot: {x: .658023, y: .329048157}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SwordAttack_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 148
+        width: 25
+        height: 24
+      alignment: 9
+      pivot: {x: .659287393, y: .370948166}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SwordAttack_2
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 140
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SwordAttack_3
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 137
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SwordAttack_4
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 139
+        width: 26
+        height: 33
+      alignment: 9
+      pivot: {x: .381046593, y: .529287636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SwordAttack_5
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 141
+        width: 29
+        height: 32
+      alignment: 9
+      pivot: {x: .324540228, y: .52852726}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SwordAttack_6
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 149
+        width: 31
+        height: 24
+      alignment: 9
+      pivot: {x: .307313979, y: .324858338}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SwordAttack_7
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 149
+        width: 33
+        height: 23
+      alignment: 9
+      pivot: {x: .285472512, y: .317243487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SwordAttack_8
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 91
+        width: 16
+        height: 31
+      alignment: 9
+      pivot: {x: .630118728, y: .26974389}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SwordAttack_9
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 91
+        width: 19
+        height: 30
+      alignment: 9
+      pivot: {x: .574257493, y: .300160229}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SwordAttack_10
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 91
+        width: 32
+        height: 24
+      alignment: 9
+      pivot: {x: .361730099, y: .343294472}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SwordAttack_11
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 91
+        width: 36
+        height: 20
+      alignment: 9
+      pivot: {x: .315639913, y: .389384449}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SwordAttack_12
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 87
+        width: 32
+        height: 24
+      alignment: 9
+      pivot: {x: .347902775, y: .444692284}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SwordAttack_13
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 82
+        width: 30
+        height: 30
+      alignment: 9
+      pivot: {x: .367261261, y: .529497802}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SwordAttack_14
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 78
+        width: 17
+        height: 35
+      alignment: 9
+      pivot: {x: .552055836, y: .62641865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SwordAttack_15
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 78
+        width: 17
+        height: 35
+      alignment: 9
+      pivot: {x: .578081906, y: .613776922}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SwordAttack_16
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 47
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SwordAttack_17
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 47
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SwordAttack_18
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 47
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SwordAttack_19
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 47
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SwordAttack_20
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 47
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SwordAttack_21
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 47
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SwordAttack_22
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 47
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SwordAttack_23
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 47
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SwordAttack_24
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1
+        width: 17
+        height: 35
+      alignment: 9
+      pivot: {x: .472981393, y: .598424911}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SwordAttack_25
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1
+        width: 17
+        height: 35
+      alignment: 9
+      pivot: {x: .447515607, y: .618965745}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SwordAttack_26
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 5
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SwordAttack_27
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 10
+        width: 32
+        height: 24
+      alignment: 9
+      pivot: {x: .648706913, y: .462823719}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SwordAttack_28
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 13
+        width: 36
+        height: 21
+      alignment: 9
+      pivot: {x: .69001472, y: .372537076}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SwordAttack_29
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 14
+        width: 32
+        height: 24
+      alignment: 9
+      pivot: {x: .685883522, y: .314116091}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SwordAttack_30
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 14
+        width: 19
+        height: 30
+      alignment: 9
+      pivot: {x: .406079739, y: .291810364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SwordAttack_31
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 14
+        width: 16
+        height: 31
+      alignment: 9
+      pivot: {x: .388469696, y: .288932115}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

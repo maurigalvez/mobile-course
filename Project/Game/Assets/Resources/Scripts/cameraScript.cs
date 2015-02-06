@@ -9,7 +9,7 @@ public class cameraScript : MonoBehaviour
 	void Start () 
     {
 	    // Set target
-		//this.camera.transform.LookAt(target.transform);
+		 //this.camera.transform.LookAt(target.transform);
        this.camera.transform.position = new Vector3(currentScreen.position.x, currentScreen.position.y, -10);
 
         
@@ -68,4 +68,9 @@ public class cameraScript : MonoBehaviour
          this.camera.transform.position = new Vector3(currentScreen.position.x, currentScreen.position.y, -10);
       }
 	}
+
+   private void updateCamera()
+   {
+
+   }
 }

@@ -94,7 +94,7 @@ public class UIManager : MonoBehaviour
       float h = Screen.height * 0.05f;
       // Draw them on screeen
       for (int i = 0; i < 3; i++)
-         GUI.DrawTexture(new Rect(posX, posY, w, h), healthIcon);
+         GUI.DrawTexture(new Rect(posX, posY, w, h), healthIcon);    
 	}
 	//===============
 	// PAUSE
