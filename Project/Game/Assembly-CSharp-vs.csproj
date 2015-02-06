@@ -107,6 +107,7 @@
      <Compile Include="Assets\Resources\Scripts\ScreenScript.cs" />
      <Compile Include="Assets\Resources\Scripts\UIManager.cs" />
      <Compile Include="Assets\Resources\Scripts\cameraScript.cs" />
+     <None Include="Assets\Resources\Sprites\Items\links.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>
