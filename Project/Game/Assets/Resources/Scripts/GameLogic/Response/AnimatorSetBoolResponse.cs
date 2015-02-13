@@ -5,7 +5,7 @@ public class AnimatorSetBoolResponse : Response {
 
 	public bool value;
 	public string propertyName;
-	private Animator anim;
+	public Animator anim;
 
 	public override void dispatch()
 	{
@@ -18,8 +18,7 @@ public class AnimatorSetBoolResponse : Response {
 	}
 
 	public void OnEnable()
-	{
-		anim = GetComponent<Animator>();
+	{		
 	}
 
 	// Use this for initialization
