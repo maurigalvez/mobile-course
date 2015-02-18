@@ -1,0 +1,443 @@
+fileFormatVersion: 2
+guid: 41da4df5615230c48bd6582c41e0f824
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: CandleWalk_0
+    21300002: CandleWalk_1
+    21300004: CandleWalk_2
+    21300006: CandleWalk_3
+    21300008: CandleWalk_4
+    21300010: CandleWalk_5
+    21300012: CandleWalk_6
+    21300014: CandleWalk_7
+    21300016: CandleWalk_8
+    21300018: CandleWalk_9
+    21300020: CandleWalk_10
+    21300022: CandleWalk_11
+    21300024: CandleWalk_12
+    21300026: CandleWalk_13
+    21300028: CandleWalk_14
+    21300030: CandleWalk_15
+    21300032: CandleWalk_16
+    21300034: CandleWalk_17
+    21300036: CandleWalk_18
+    21300038: CandleWalk_19
+    21300040: CandleWalk_20
+    21300042: CandleWalk_21
+    21300044: CandleWalk_22
+    21300046: CandleWalk_23
+    21300048: CandleWalk_24
+    21300050: CandleWalk_25
+    21300052: CandleWalk_26
+    21300054: CandleWalk_27
+    21300056: CandleWalk_28
+    21300058: CandleWalk_29
+    21300060: CandleWalk_30
+    21300062: CandleWalk_31
+    21300064: CandleWalk_32
+    21300066: CandleWalk_33
+    21300068: CandleWalk_34
+    21300070: CandleWalk_35
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 40
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: CandleWalk_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 116
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleWalk_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 116
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleWalk_2
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 116
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleWalk_3
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 116
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleWalk_4
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 116
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleWalk_5
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 116
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleWalk_6
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 116
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleWalk_7
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 116
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleWalk_8
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 116
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleWalk_9
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 80
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleWalk_10
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 79
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleWalk_11
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 82
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleWalk_12
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 82
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleWalk_13
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 81
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleWalk_14
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 81
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleWalk_15
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 79
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleWalk_16
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 78
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleWalk_17
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 79
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleWalk_18
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 41
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleWalk_19
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 41
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleWalk_20
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 41
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleWalk_21
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 41
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleWalk_22
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 41
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleWalk_23
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 41
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleWalk_24
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 41
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleWalk_25
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 41
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleWalk_26
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 41
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleWalk_27
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 11
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleWalk_28
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 10
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleWalk_29
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 11
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleWalk_30
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 11
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleWalk_31
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 11
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleWalk_32
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 10
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleWalk_33
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 11
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleWalk_34
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 11
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleWalk_35
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 12
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

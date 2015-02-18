@@ -83,6 +83,7 @@
      <Compile Include="Assets\Resources\Scripts\GameLogic\Response\GetCollisionPositionResponse.cs" />
      <Compile Include="Assets\Resources\Scripts\GameLogic\Response\InstantiateResponse.cs" />
      <Compile Include="Assets\Resources\Scripts\GameLogic\Response\JumpResponse.cs" />
+     <Compile Include="Assets\Resources\Scripts\GameLogic\Response\LaunchProjectileResponse.cs" />
      <Compile Include="Assets\Resources\Scripts\GameLogic\Response\ModifyPropertyResponse.cs" />
      <Compile Include="Assets\Resources\Scripts\GameLogic\Response\MousePositionResponse.cs" />
      <Compile Include="Assets\Resources\Scripts\GameLogic\Response\RandomFloatResponse.cs" />
