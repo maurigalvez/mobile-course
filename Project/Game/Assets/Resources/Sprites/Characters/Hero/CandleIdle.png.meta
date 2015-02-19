@@ -1,0 +1,267 @@
+fileFormatVersion: 2
+guid: ce3c80016c37e964a86d2b8e505f558b
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: CandleIdle_0
+    21300002: CandleIdle_1
+    21300004: CandleIdle_2
+    21300006: CandleIdle_3
+    21300008: CandleIdle_4
+    21300010: CandleIdle_5
+    21300012: CandleIdle_6
+    21300014: CandleIdle_7
+    21300016: CandleIdle_8
+    21300018: CandleIdle_9
+    21300020: CandleIdle_10
+    21300022: CandleIdle_11
+    21300024: CandleIdle_12
+    21300026: CandleIdle_13
+    21300028: CandleIdle_14
+    21300030: CandleIdle_15
+    21300032: CandleIdle_16
+    21300034: CandleIdle_17
+    21300036: CandleIdle_18
+    21300038: CandleIdle_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 40
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: CandleIdle_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 118
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleIdle_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 118
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleIdle_2
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 118
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleIdle_3
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 118
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleIdle_4
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 118
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleIdle_5
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 78
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleIdle_6
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 78
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleIdle_7
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 78
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleIdle_8
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 78
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleIdle_9
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 78
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleIdle_10
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 39
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleIdle_11
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 39
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleIdle_12
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 39
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleIdle_13
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 39
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleIdle_14
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 39
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleIdle_15
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 5
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleIdle_16
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 5
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleIdle_17
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 5
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleIdle_18
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 5
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleIdle_19
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 5
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

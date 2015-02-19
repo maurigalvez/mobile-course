@@ -7,7 +7,7 @@ public class cameraScript : MonoBehaviour
    public Transform currentScreen;           // Current Screen in game
    public float minDistance;                 // min distance between camera and destination
    private Vector2 destination;
-
+   private bool translate = false;
 	// Use this for initialization
 	void Start () 
     {
@@ -18,9 +18,11 @@ public class cameraScript : MonoBehaviour
 	
 	// Update is called once per frame
 	void Update () 
-	{
-      updateCamera();
-     // goToDestination();
+	{      
+      if(translate == true)
+        goToDestination();
+      else
+         updateCamera();
 	}
 
    private void updateCamera()
@@ -43,7 +45,8 @@ public class cameraScript : MonoBehaviour
             // assign current screen to right Screen
             currentScreen = cam.rightScreen;
             // translate camera
-            this.camera.transform.position = new Vector3(currentScreen.position.x, currentScreen.position.y,-10);
+            destination = new Vector3(currentScreen.position.x, currentScreen.position.y,-10);
+            translate = true;
          }
          //------------
          // LEFT
@@ -55,7 +58,8 @@ public class cameraScript : MonoBehaviour
             // assign current screen to left Screen
             currentScreen = cam.leftScreen;
             // translate camera
-            this.camera.transform.position = new Vector3(currentScreen.position.x, currentScreen.position.y,-10);
+            destination = new Vector3(currentScreen.position.x, currentScreen.position.y,-10);
+            translate = true;
          }
          //------------
          // TOP
@@ -66,7 +70,8 @@ public class cameraScript : MonoBehaviour
             // assign current screen to top Screen
             currentScreen = cam.topScreen;
             // translate camera
-            this.camera.transform.position = new Vector3(currentScreen.position.x, currentScreen.position.y,-10);
+            destination = new Vector3(currentScreen.position.x, currentScreen.position.y,-10);
+            translate = true;
          }
          //------------
          // BOTTOM
@@ -77,7 +82,8 @@ public class cameraScript : MonoBehaviour
             // assign current screen to bottom Screen
             currentScreen = cam.bottomScreen;
             // translate camera
-            this.camera.transform.position = new Vector3(currentScreen.position.x, currentScreen.position.y,-10);
+            destination= new Vector3(currentScreen.position.x, currentScreen.position.y,-10);
+            translate = true;
          }
       }//check for camscript
    }
@@ -86,15 +92,18 @@ public class cameraScript : MonoBehaviour
    //==================
    public void goToDestination()
    {
-      /*Vector2 cPosition = new Vector2(transform.position.x, transform.position.y);
+      Vector2 cPosition = new Vector2(transform.position.x, transform.position.y);
       Vector2 moveDirection = (destination - cPosition).normalized;
       float distance = Vector2.Distance(camera.transform.position, destination);
       // check distance 
       while(distance > minDistance)
       {
-         Vector2 pos = moveDirection * distance * Time.deltaTime;
-         this.transform.position += new Vector3(pos.x,pos.y,0);
-      }*/
+         Vector2 pos = moveDirection * distance * Time.deltaTime * 0.05f;
+         this.transform.position = new Vector3(this.transform.position.x + pos.x,this.transform.position.y + pos.y,this.transform.position.z);
+         distance = Vector2.Distance(camera.transform.position, destination);
+      }
+
+      translate = false;
    }
    //===============
    // SET SCREEN

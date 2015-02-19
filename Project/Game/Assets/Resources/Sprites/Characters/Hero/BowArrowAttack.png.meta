@@ -1,0 +1,751 @@
+fileFormatVersion: 2
+guid: e2c3bae00c9e23f4da09615ee362b535
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BowArrowAttack_0
+    21300002: BowArrowAttack_1
+    21300004: BowArrowAttack_2
+    21300006: BowArrowAttack_3
+    21300008: BowArrowAttack_4
+    21300010: BowArrowAttack_5
+    21300012: BowArrowAttack_6
+    21300014: BowArrowAttack_7
+    21300016: BowArrowAttack_8
+    21300018: BowArrowAttack_9
+    21300020: BowArrowAttack_10
+    21300022: BowArrowAttack_11
+    21300024: BowArrowAttack_12
+    21300026: BowArrowAttack_13
+    21300028: BowArrowAttack_14
+    21300030: BowArrowAttack_15
+    21300032: BowArrowAttack_16
+    21300034: BowArrowAttack_17
+    21300036: BowArrowAttack_18
+    21300038: BowArrowAttack_19
+    21300040: BowArrowAttack_20
+    21300042: BowArrowAttack_21
+    21300044: BowArrowAttack_22
+    21300046: BowArrowAttack_23
+    21300048: BowArrowAttack_24
+    21300050: BowArrowAttack_25
+    21300052: BowArrowAttack_26
+    21300054: BowArrowAttack_27
+    21300056: BowArrowAttack_28
+    21300058: BowArrowAttack_29
+    21300060: BowArrowAttack_30
+    21300062: BowArrowAttack_31
+    21300064: BowArrowAttack_32
+    21300066: BowArrowAttack_33
+    21300068: BowArrowAttack_34
+    21300070: BowArrowAttack_35
+    21300072: BowArrowAttack_36
+    21300074: BowArrowAttack_37
+    21300076: BowArrowAttack_38
+    21300078: BowArrowAttack_39
+    21300080: BowArrowAttack_40
+    21300082: BowArrowAttack_41
+    21300084: BowArrowAttack_42
+    21300086: BowArrowAttack_43
+    21300088: BowArrowAttack_44
+    21300090: BowArrowAttack_45
+    21300092: BowArrowAttack_46
+    21300094: BowArrowAttack_47
+    21300096: BowArrowAttack_48
+    21300098: BowArrowAttack_49
+    21300100: BowArrowAttack_50
+    21300102: BowArrowAttack_51
+    21300104: BowArrowAttack_52
+    21300106: BowArrowAttack_53
+    21300108: BowArrowAttack_54
+    21300110: BowArrowAttack_55
+    21300112: BowArrowAttack_56
+    21300114: BowArrowAttack_57
+    21300116: BowArrowAttack_58
+    21300118: BowArrowAttack_59
+    21300120: BowArrowAttack_60
+    21300122: BowArrowAttack_61
+    21300124: BowArrowAttack_62
+    21300126: BowArrowAttack_63
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 40
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BowArrowAttack_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 140
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_1
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 140
+        width: 32
+        height: 22
+      alignment: 9
+      pivot: {x: .708193302, y: .486235172}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_2
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 142
+        width: 25
+        height: 21
+      alignment: 9
+      pivot: {x: .669583142, y: .413478315}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_3
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 142
+        width: 25
+        height: 22
+      alignment: 9
+      pivot: {x: .669583142, y: .417411119}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_4
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 142
+        width: 25
+        height: 20
+      alignment: 9
+      pivot: {x: .681696177, y: .424293518}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_5
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 142
+        width: 25
+        height: 20
+      alignment: 9
+      pivot: {x: .669582546, y: .394010931}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_6
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 141
+        width: 25
+        height: 20
+      alignment: 9
+      pivot: {x: .669583142, y: .439434826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_7
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 140
+        width: 25
+        height: 21
+      alignment: 9
+      pivot: {x: .669582546, y: .413478315}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_8
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 142
+        width: 25
+        height: 20
+      alignment: 9
+      pivot: {x: .669583738, y: .394010931}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_9
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 142
+        width: 25
+        height: 21
+      alignment: 9
+      pivot: {x: .669583738, y: .456739157}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_10
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 142
+        width: 25
+        height: 22
+      alignment: 9
+      pivot: {x: .630949736, y: .414967626}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_11
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 142
+        width: 25
+        height: 21
+      alignment: 9
+      pivot: {x: .640302718, y: .366378069}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_12
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 142
+        width: 25
+        height: 20
+      alignment: 9
+      pivot: {x: .649655759, y: .394772351}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_13
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 142
+        width: 25
+        height: 21
+      alignment: 9
+      pivot: {x: .630949736, y: .399783194}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_14
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 142
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: .547331333, y: .397450775}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_15
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 142
+        width: 19
+        height: 22
+      alignment: 9
+      pivot: {x: .552313566, y: .371992618}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_16
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 106
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_17
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 106
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_18
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 106
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_19
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 106
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_20
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 106
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_21
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 106
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_22
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 106
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_23
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 106
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_24
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 104
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_25
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 105
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_26
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 106
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_27
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 106
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_28
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 106
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_29
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 106
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_30
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 104
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_31
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 104
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_32
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 54
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_33
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 54
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_34
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 54
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_35
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 54
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_36
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 56
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_37
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 56
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_38
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 56
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_39
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 56
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_40
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 56
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_41
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 56
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_42
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 56
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_43
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 56
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_44
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 56
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_45
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 56
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_46
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 56
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_47
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 56
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_48
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 8
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_49
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 8
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_50
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 8
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_51
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 8
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_52
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 8
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_53
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 8
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_54
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 8
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_55
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 8
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_56
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 8
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_57
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 8
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_58
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 8
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_59
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 8
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_60
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 8
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_61
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 8
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_62
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 8
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BowArrowAttack_63
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 8
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

@@ -69,7 +69,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 35
+  spritePixelsToUnits: 40
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []
@@ -83,7 +83,7 @@ TextureImporter:
         width: 28
         height: 22
       alignment: 9
-      pivot: {x: .658023, y: .329048157}
+      pivot: {x: .698259532, y: .27783826}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SwordAttack_1
       rect:
@@ -93,7 +93,7 @@ TextureImporter:
         width: 25
         height: 24
       alignment: 9
-      pivot: {x: .659287393, y: .370948166}
+      pivot: {x: .689330459, y: .308357865}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SwordAttack_2
       rect:
@@ -102,8 +102,8 @@ TextureImporter:
         y: 140
         width: 20
         height: 33
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .546062112, y: .597565174}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SwordAttack_3
       rect:
@@ -112,8 +112,8 @@ TextureImporter:
         y: 137
         width: 19
         height: 36
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .531282127, y: .632079661}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SwordAttack_4
       rect:
@@ -123,7 +123,7 @@ TextureImporter:
         width: 26
         height: 33
       alignment: 9
-      pivot: {x: .381046593, y: .529287636}
+      pivot: {x: .376090407, y: .611828864}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SwordAttack_5
       rect:
@@ -133,7 +133,7 @@ TextureImporter:
         width: 29
         height: 32
       alignment: 9
-      pivot: {x: .324540228, y: .52852726}
+      pivot: {x: .338204205, y: .574454308}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SwordAttack_6
       rect:
@@ -143,7 +143,7 @@ TextureImporter:
         width: 31
         height: 24
       alignment: 9
-      pivot: {x: .307313979, y: .324858338}
+      pivot: {x: .325485736, y: .254444748}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SwordAttack_7
       rect:
@@ -153,7 +153,7 @@ TextureImporter:
         width: 33
         height: 23
       alignment: 9
-      pivot: {x: .285472512, y: .317243487}
+      pivot: {x: .2684021, y: .260096014}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SwordAttack_8
       rect:

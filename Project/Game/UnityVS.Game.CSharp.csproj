@@ -7,16 +7,14 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{02576F1D-BE9C-CFA7-763D-1EBF63B36977}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <AssemblyName>Assembly-CSharp</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile>
-    </CompilerResponseFile>
+    <CompilerResponseFile></CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>iPhone:9</UnityBuildTarget>
     <UnityVersion>4.6.0f3</UnityVersion>
@@ -56,6 +54,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Resources\Scripts\Debug\FOV_Debug.cs" />
     <Compile Include="Assets\Resources\Scripts\DecisionMgr\DecisionMgr.cs" />
     <Compile Include="Assets\Resources\Scripts\DecisionMgr\Logic.cs" />
     <Compile Include="Assets\Resources\Scripts\GameLogic\Condition\AxisCondition.cs" />
@@ -74,6 +73,7 @@
     <Compile Include="Assets\Resources\Scripts\GameLogic\Data\CollectionData.cs" />
     <Compile Include="Assets\Resources\Scripts\GameLogic\Data\CollisionData.cs" />
     <Compile Include="Assets\Resources\Scripts\GameLogic\Data\Data.cs" />
+    <Compile Include="Assets\Resources\Scripts\GameLogic\Data\DirectionData.cs" />
     <Compile Include="Assets\Resources\Scripts\GameLogic\Data\FloatData.cs" />
     <Compile Include="Assets\Resources\Scripts\GameLogic\Data\GUiTextData.cs" />
     <Compile Include="Assets\Resources\Scripts\GameLogic\Data\GameObjData.cs" />
@@ -83,9 +83,13 @@
     <Compile Include="Assets\Resources\Scripts\GameLogic\Data\Vector3Data.cs" />
     <Compile Include="Assets\Resources\Scripts\GameLogic\Helpers\CollisionHelper.cs" />
     <Compile Include="Assets\Resources\Scripts\GameLogic\Helpers\ConditionHelper.cs" />
+    <Compile Include="Assets\Resources\Scripts\GameLogic\Helpers\DamageType.cs" />
     <Compile Include="Assets\Resources\Scripts\GameLogic\Helpers\OnMouseDownHelper.cs" />
+    <Compile Include="Assets\Resources\Scripts\GameLogic\Helpers\ResistanceType.cs" />
+    <Compile Include="Assets\Resources\Scripts\GameLogic\Helpers\Types.cs" />
     <Compile Include="Assets\Resources\Scripts\GameLogic\Response\AnimatorSetBoolResponse.cs" />
     <Compile Include="Assets\Resources\Scripts\GameLogic\Response\CollisionResponse.cs" />
+    <Compile Include="Assets\Resources\Scripts\GameLogic\Response\DamageMessage.cs" />
     <Compile Include="Assets\Resources\Scripts\GameLogic\Response\DebugResponse.cs" />
     <Compile Include="Assets\Resources\Scripts\GameLogic\Response\DecreaseFloatResponse.cs" />
     <Compile Include="Assets\Resources\Scripts\GameLogic\Response\FloatAnimationResponse.cs" />
@@ -93,6 +97,7 @@
     <Compile Include="Assets\Resources\Scripts\GameLogic\Response\GetCollisionPositionResponse.cs" />
     <Compile Include="Assets\Resources\Scripts\GameLogic\Response\InstantiateResponse.cs" />
     <Compile Include="Assets\Resources\Scripts\GameLogic\Response\JumpResponse.cs" />
+    <Compile Include="Assets\Resources\Scripts\GameLogic\Response\LaunchProjectileResponse.cs" />
     <Compile Include="Assets\Resources\Scripts\GameLogic\Response\ModifyPropertyResponse.cs" />
     <Compile Include="Assets\Resources\Scripts\GameLogic\Response\MousePositionResponse.cs" />
     <Compile Include="Assets\Resources\Scripts\GameLogic\Response\RandomFloatResponse.cs" />
@@ -102,9 +107,11 @@
     <Compile Include="Assets\Resources\Scripts\GameLogic\Response\SendMessageResponse.cs" />
     <Compile Include="Assets\Resources\Scripts\GameLogic\Response\TranslateResponse.cs" />
     <Compile Include="Assets\Resources\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Resources\Scripts\InventoryScripts\InventoryObject.cs" />
-    <Compile Include="Assets\Resources\Scripts\InventoryScripts\Pickup.cs" />
+    <Compile Include="Assets\Resources\Scripts\HeroScript.cs" />
+    <Compile Include="Assets\Resources\Scripts\InventoryScripts\ItemUsageCondition.cs" />
+    <Compile Include="Assets\Resources\Scripts\InventoryScripts\PotionCondition.cs" />
     <Compile Include="Assets\Resources\Scripts\IsHero.cs" />
+    <Compile Include="Assets\Resources\Scripts\Mixins\AnimatorOverrideMixin.cs" />
     <Compile Include="Assets\Resources\Scripts\Mixins\CollectionEntry.cs" />
     <Compile Include="Assets\Resources\Scripts\Mixins\DrawsGizmos.cs" />
     <Compile Include="Assets\Resources\Scripts\Mixins\EquipmentSlotEntry.cs" />
@@ -112,8 +119,10 @@
     <Compile Include="Assets\Resources\Scripts\Mixins\IsBuffable.cs" />
     <Compile Include="Assets\Resources\Scripts\Mixins\IsCollectible.cs" />
     <Compile Include="Assets\Resources\Scripts\Mixins\IsConsumable.cs" />
+    <Compile Include="Assets\Resources\Scripts\Mixins\IsDamageable.cs" />
     <Compile Include="Assets\Resources\Scripts\Mixins\IsDoor.cs" />
     <Compile Include="Assets\Resources\Scripts\Mixins\IsEquipable.cs" />
+    <Compile Include="Assets\Resources\Scripts\Mixins\IsEquipmentSlot.cs" />
     <Compile Include="Assets\Resources\Scripts\Mixins\IsFloatAnimatible.cs" />
     <Compile Include="Assets\Resources\Scripts\Mixins\IsInventoriable.cs" />
     <Compile Include="Assets\Resources\Scripts\Mixins\IsLimited.cs" />
@@ -122,10 +131,14 @@
     <Compile Include="Assets\Resources\Scripts\Mixins\IsTouchable.cs" />
     <Compile Include="Assets\Resources\Scripts\Mixins\IsTriggable.cs" />
     <Compile Include="Assets\Resources\Scripts\Mixins\IsUsable.cs" />
+    <Compile Include="Assets\Resources\Scripts\Mixins\IsWeapon.cs" />
     <Compile Include="Assets\Resources\Scripts\Mixins\Mixin.cs" />
     <Compile Include="Assets\Resources\Scripts\ScreenScript.cs" />
     <Compile Include="Assets\Resources\Scripts\UIManager.cs" />
     <Compile Include="Assets\Resources\Scripts\cameraScript.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Resources\Sprites\Items\links.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
 </Project>
