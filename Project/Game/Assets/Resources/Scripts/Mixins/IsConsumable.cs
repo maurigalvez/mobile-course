@@ -2,47 +2,54 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class IsConsumable : Mixin {
-	
-	public List<Data> buffs;
-	public void Consume()
-	{
-		foreach (Data d in buffs)
-		{
-			//
-			//	find variables that match (by name)
-			//
-			Data[] attributes = GetRecipient().GetComponents<Data>();
-			foreach(Data attrib in attributes)
-			{
-				if (attrib.name == d.name)
-				{
-					IntData id = (attrib as IntData);
-					if (id)
-						(id as IntData).Add( (d as IntData).Get () );
+public class IsConsumable : Mixin
+{
+   public IsBuffable buffs;
 
-					FloatData fd = (attrib as FloatData);
-					if (fd)
-						(fd as FloatData).Add ( (d as FloatData).Get () );
+   public void Consume()
+   {
+      if (buffs)
+      {
+         // late bind recipient
+         if (!buffs.GetRecipient())
+            buffs.SetRecipient(GetRecipient());
 
-					this.gameObject.SetActive(false);
-				}
-			}
-		}
-	}
+         buffs.Apply();
 
-	public void OnEnable()
-	{
+         // check if item isPassive
+         IsPassive passive = gameObject.GetComponent<IsPassive>();         
+         if (passive == null)
+         {
+            // if not passive - remove from scene after usage
+            Destroy(this.gameObject);
+         }
+         else
+         {
+            // do not destroy if passive so temp buffs can be applied that expire over time
+            passive.Activate();
+            passive.SetRecipient(this.GetRecipient());
 
-	}
+            // hide after item is collected
+            Hide();
+         }
+      }
+   }
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+   public void Hide()
+   {
+      // bad, need a way to diable rendering and interaction but still
+      // keep update
+      gameObject.collider2D.enabled = false;
+
+      if (gameObject.renderer != null)
+         gameObject.renderer.enabled = false;
+      else
+      {
+         // get all child renderer components and disable them
+         Renderer[] renderers = GetComponentsInChildren<Renderer>() as Renderer[];
+         foreach (Renderer r in renderers)
+            r.enabled = false;
+      }
+      //transform.Translate (0.0f, -1000.0f, 0.0f);
+   }
 }
