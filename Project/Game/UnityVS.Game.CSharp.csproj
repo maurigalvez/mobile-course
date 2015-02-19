@@ -88,6 +88,7 @@
     <Compile Include="Assets\Resources\Scripts\GameLogic\Helpers\ResistanceType.cs" />
     <Compile Include="Assets\Resources\Scripts\GameLogic\Helpers\Types.cs" />
     <Compile Include="Assets\Resources\Scripts\GameLogic\Response\AnimatorSetBoolResponse.cs" />
+    <Compile Include="Assets\Resources\Scripts\GameLogic\Response\ChangeFloatResponse.cs" />
     <Compile Include="Assets\Resources\Scripts\GameLogic\Response\CollisionResponse.cs" />
     <Compile Include="Assets\Resources\Scripts\GameLogic\Response\DamageMessage.cs" />
     <Compile Include="Assets\Resources\Scripts\GameLogic\Response\DebugResponse.cs" />
@@ -97,6 +98,7 @@
     <Compile Include="Assets\Resources\Scripts\GameLogic\Response\GetCollisionPositionResponse.cs" />
     <Compile Include="Assets\Resources\Scripts\GameLogic\Response\InstantiateResponse.cs" />
     <Compile Include="Assets\Resources\Scripts\GameLogic\Response\JumpResponse.cs" />
+    <Compile Include="Assets\Resources\Scripts\GameLogic\Response\LaunchBallisticResponse.cs" />
     <Compile Include="Assets\Resources\Scripts\GameLogic\Response\LaunchProjectileResponse.cs" />
     <Compile Include="Assets\Resources\Scripts\GameLogic\Response\ModifyPropertyResponse.cs" />
     <Compile Include="Assets\Resources\Scripts\GameLogic\Response\MousePositionResponse.cs" />
@@ -104,6 +106,7 @@
     <Compile Include="Assets\Resources\Scripts\GameLogic\Response\RandomPositionResponse.cs" />
     <Compile Include="Assets\Resources\Scripts\GameLogic\Response\ResetClickResponse.cs" />
     <Compile Include="Assets\Resources\Scripts\GameLogic\Response\Response.cs" />
+    <Compile Include="Assets\Resources\Scripts\GameLogic\Response\RotateResponse.cs" />
     <Compile Include="Assets\Resources\Scripts\GameLogic\Response\SendMessageResponse.cs" />
     <Compile Include="Assets\Resources\Scripts\GameLogic\Response\TranslateResponse.cs" />
     <Compile Include="Assets\Resources\Scripts\GameManager.cs" />
@@ -113,6 +116,7 @@
     <Compile Include="Assets\Resources\Scripts\IsHero.cs" />
     <Compile Include="Assets\Resources\Scripts\Mixins\AnimatorOverrideMixin.cs" />
     <Compile Include="Assets\Resources\Scripts\Mixins\CollectionEntry.cs" />
+    <Compile Include="Assets\Resources\Scripts\Mixins\DestroyWhenCollides.cs" />
     <Compile Include="Assets\Resources\Scripts\Mixins\DrawsGizmos.cs" />
     <Compile Include="Assets\Resources\Scripts\Mixins\EquipmentSlotEntry.cs" />
     <Compile Include="Assets\Resources\Scripts\Mixins\Follows.cs" />

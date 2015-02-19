@@ -9,18 +9,30 @@ using System.Collections;
 public class UIManager : MonoBehaviour 
 {
 	//===================
-	// GUI ELEMENTS
+	// GUI TEXTURES
 	//===================
-	public Texture healthIcon;						// Texture for player's health
-	public Texture gold;						// Texture for gold
+	public Texture FullHPIcon;					// Texture for filled hearts
+   public Texture EmptyHPIcon;            // Texture for empty hears
+	public Texture gold;						   // Texture for gold
 	public Texture menubg;						// Texture of mainMenu background
-	public Texture menuPointer;					// Texture of mainMenu pointer
-	public Texture inventorybg;					// Texture of inventory
+	public Texture menuPointer;				// Texture of mainMenu pointer
+	public Texture inventorybg;				// Texture of inventory
+   //===================
+   // GUI STYLES
+   //===================
+   public GUIStyle coinStyle;             // GUIStyle used for coins
 	//===================
-	// INSTANCE VARIABLES
+	// INSTANCE PROPERTIES
 	//===================
 	public GameObject player;					// GameObject of the player
 	private GameManager gameMgr;				// Instance of GameManager
+   //===================
+   // PLAYER PROPERTIES
+   //===================
+   public IntData maxHP;
+   public IntData HP;
+   public IntData coins;
+   //
 	// Use this for initialization
 	void Start () 
 	{
@@ -86,15 +98,37 @@ public class UIManager : MonoBehaviour
 		//--------------
 		// Obtain Data from player - health, money 
 		//--------------
+      //-----------
       // DRAW HEALTH
+      //-----------
       // obtain positions X and Y
-      float posX = Screen.width * 0.1f;
-      float posY = Screen.height * 0.1f;
-      float w = Screen.width * 0.05f;
-      float h = Screen.height * 0.05f;
-      // Draw them on screeen
-      for (int i = 0; i < 3; i++)
-         GUI.DrawTexture(new Rect(posX, posY, w, h), healthIcon);    
+      float posX = Screen.width * 0.03f;
+      float posY = Screen.height * 0.03f;
+      float w = Screen.width * 0.07f;
+      float h = Screen.height * 0.07f;
+      // Draw them on screen
+      for (int i = 0; i < maxHP.data; i++)
+      {
+         // check if heart is filled
+         if(i < HP.data)
+            // draw filled heart
+            GUI.DrawTexture(new Rect(posX, posY, w, h), FullHPIcon);
+         else
+            // draw empty heart
+            GUI.DrawTexture(new Rect(posX, posY, w, h), EmptyHPIcon);         
+         posX += w;
+      }
+      //---------
+      // DRAW COINS
+      //---------
+      posX = Screen.width * 0.75f;
+      // Draw Icon on screen
+      GUI.DrawTexture(new Rect(posX, posY, w, h), gold);
+      // Draw label on screen
+      // addjust cointStyle text size
+      coinStyle.fontSize = (int)(Screen.width * 0.05);
+      GUI.Label(new Rect(posX + w * 1.15f, posY, w, h), coins.data.ToString(), coinStyle);
+
 	}
 	//===============
 	// PAUSE
