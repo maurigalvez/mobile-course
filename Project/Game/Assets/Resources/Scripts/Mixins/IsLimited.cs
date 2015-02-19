@@ -5,7 +5,7 @@ public class IsLimited : Mixin
 {
     public bool isActive;                   // True if its active, false otherwise.
     public FloatData value;                 // Value to reduce
-    public float reduceRate;            // Value to be reduced per timeRate
+    public float reduceRate;                // Value to be reduced per timeRate
     public float timeRate;                  // How often it will be reduced and applied
     public IsBuffable buffs;                // List of buffs
     private float t;                        // Current Timer

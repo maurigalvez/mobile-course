@@ -1,29 +1,44 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class IsUsable : Mixin {
-
+public class IsUsable : Mixin 
+{
 	public bool Use;
 	public string OnUseCB;
+   public ItemUsageCondition useCondition;
 
-	// Use this for initialization
-	void Start () {
-	
+	void Start ()
+   {
 	}
 
 	public void IsUsableUpdate()
 	{
 		if (Use == true)
 		{
-			if (OnUseCB != "")
-			{
-				SendMessage (OnUseCB);
-				Use = false;
-			}
+         if (OnUseCB != "")
+         {
+            if (useCondition is PotionCondition)
+            {
+               PotionCondition potionCond = useCondition as PotionCondition;
+               if (potionCond.CheckUsage())
+               {
+                  SendMessage(OnUseCB);
+                  Use = false;
+
+                  // correct player's HP if needed
+                  potionCond.CheckHP();
+               }
+            }
+            else
+            {
+               SendMessage(OnUseCB);
+               Use = false;
+            }
+            
+         }
 		}
 	}
 
-	// Update is called once per frame
 	void Update () {
 	
 		IsUsableUpdate ();

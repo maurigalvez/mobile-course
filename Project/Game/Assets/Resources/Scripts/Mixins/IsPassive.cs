@@ -6,7 +6,6 @@ public class IsPassive : Mixin
 {
 	public bool isActive;
 	public IsBuffable buffs;
-	//public List<Data> buffs;
 	public string OnTimeFrameElapsedCB;
 	public float timeFrame;
 	private float t;
@@ -60,4 +59,33 @@ public class IsPassive : Mixin
 			buffs.Apply();
 		}
 	}
+
+   public void ExpireOverTime()
+   {
+      // find all buffs on target and remove them when timer expires
+      Data[] buffs = GetComponents<Data>();
+
+      foreach (Data d in buffs)
+      {
+         //
+         //	find variables that match (by name)
+         //
+         Data[] attributes = GetRecipient().GetComponents<Data>();
+         foreach (Data attrib in attributes)
+         {
+            if (attrib.name == d.name)
+            {
+               IntData id = (attrib as IntData);
+               if (id)
+                  (id as IntData).Set(-(d as IntData).Get());
+
+               FloatData fd = (attrib as FloatData);
+               if (fd)
+                  (fd as FloatData).Set(-(d as FloatData).Get());
+            }
+         }
+      }
+
+      Destroy(this.gameObject);
+   }
 }
