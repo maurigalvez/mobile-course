@@ -5,7 +5,7 @@ using System.Collections;
 /// </summary>
 public class IsFloatAnimatible : Mixin
 {
-   public bool isActive;                    // True, if this is active. False otherwise
+   public bool isActive =false;              // True, if this is active. False otherwise
    public FloatData fData;                  // Instance of float value
    private Animator _animator;              // Instance of animator
 
@@ -16,7 +16,6 @@ public class IsFloatAnimatible : Mixin
    {
       // obtain animator instance
       _animator = GetComponent<Animator>();
-      isActive = false;
    }
 
    public void Animate()

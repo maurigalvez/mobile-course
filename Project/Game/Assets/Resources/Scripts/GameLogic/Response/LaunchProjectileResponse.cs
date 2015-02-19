@@ -3,18 +3,10 @@ using System.Collections;
 
 public class LaunchProjectileResponse : Response
 {
-   public enum eDirection
-   {
-      Forward,
-      Right,
-      Back,
-      Left,
-   }
-
    public Transform recipient;              // Recipient that will launch the arrow
-   public eDirection direction2D;           // Direction that projectile will be launched with respect to the recipient
+   public DirectionData direction2D;           // Direction that projectile will be launched with respect to the recipient
    public GameObject projectile;            // Prefab projectile to  be launched
-   public float magnitude;                  // Force magnitude to be applied
+   public float magnitude;           // Magnitude applied to projectile
    public bool switch3D;                    // True if it's on 3D, false if it's on 2D
    
    public override void dispatch()
@@ -33,11 +25,15 @@ public class LaunchProjectileResponse : Response
          {
             // Instantiate projectile
             GameObject proj = (GameObject)GameObject.Instantiate(projectile, recipient.position, recipient.rotation);
+            
+
             // Apply force
             if(switch3D == true)
             {
                // obtain rigid body from projectile
                Rigidbody rb = proj.GetComponent<Rigidbody>();
+               // Ignore collision with recipient
+               Physics.IgnoreCollision(proj.collider, recipient.collider);
                // check if there's a rigidbody
                if (rb)
                {
@@ -48,26 +44,28 @@ public class LaunchProjectileResponse : Response
             {
                // obtain rigidbody 2d
                Rigidbody2D rb2d = proj.GetComponent<Rigidbody2D>();
+               // Ignore collision with recipient
+               Physics2D.IgnoreCollision(proj.collider2D, recipient.collider2D);
                // check if rigidbody is not null
                if(rb2d)
                {
                   // launch depending on direction
-                  switch(direction2D)
+                  switch(direction2D.data)
                   {
-                     case eDirection.Forward:
-                        rb2d.AddForce(-recipient.up  * magnitude);
+                     case DirectionData.eDirection.SOUTH:
+                        rb2d.AddForce(-recipient.up * magnitude);
                      break;
 
-                     case eDirection.Back:
+                     case DirectionData.eDirection.NORTH:
                         rb2d.AddForce(recipient.up * magnitude);
                      break;
 
-                     case eDirection.Right:
+                     case DirectionData.eDirection.EAST:
                         rb2d.AddForce(recipient.right * magnitude);
                      break;
 
-                     case eDirection.Left:
-                        rb2d.AddForce(-recipient.right * magnitude);
+                     case DirectionData.eDirection.WEST:
+                       rb2d.AddForce(-recipient.right * magnitude);
                      break;
                   }//switch direction
                }//rb2d
