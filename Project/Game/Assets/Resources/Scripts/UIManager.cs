@@ -31,7 +31,7 @@ public class UIManager : MonoBehaviour
    //===================
    public IntData maxHP;
    public IntData HP;
-   public IntData coins;
+   public UniqueData coins;
    //
 	// Use this for initialization
 	void Start () 
@@ -127,7 +127,7 @@ public class UIManager : MonoBehaviour
       // Draw label on screen
       // addjust cointStyle text size
       coinStyle.fontSize = (int)(Screen.width * 0.05);
-      GUI.Label(new Rect(posX + w * 1.15f, posY, w, h), coins.data.ToString(), coinStyle);
+      GUI.Label(new Rect(posX + w * 1.15f, posY, w, h), coins.amount.ToString(), coinStyle);
 
 	}
 	//===============

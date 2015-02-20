@@ -12,7 +12,8 @@ public class AnimatorOverrideMixin : Mixin
       if (GetRecipient())
       {
          // Obtain animator component from recipient
-         Animator an = GetRecipient().GetComponent<Animator>();
+         //Animator an = GetRecipient().GetComponent<Animator>();
+         Animator an = GetRecipient().GetComponent<DefaultAnimatorData>().defaultAnimator;
          if (an)
          {
             // obtain default controller
@@ -24,13 +25,13 @@ public class AnimatorOverrideMixin : Mixin
    public void setDefaultAnimation()
    {
       // Obtain animator component from recipient
-      Animator an = GetRecipient().GetComponent<Animator>();
+      Animator an = GetRecipient().GetComponent<Animator>();      
       if (an)
          an.runtimeAnimatorController = defaultCtrl;
    }
 	// Use this for initialization
-	void Start () {
-	
+	void Start () 
+   {	
 	}
 	
 	// Update is called once per frame

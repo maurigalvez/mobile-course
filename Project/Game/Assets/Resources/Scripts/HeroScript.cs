@@ -32,25 +32,25 @@ public class HeroScript : MonoBehaviour
          if (v<0)
          {
             //Debug.Log("down");
-            fovDebug.curDir2D = FOV_Debug.direction2D.down;
+            //fovDebug.curDir2D = FOV_Debug.direction2D.down;
          }
          _animator.SetBool("MoveBack", (v > 0));
          if (v > 0)
          {
             //Debug.Log("up");
-            fovDebug.curDir2D = FOV_Debug.direction2D.up;
+            //fovDebug.curDir2D = FOV_Debug.direction2D.up;
          }
          _animator.SetBool("MoveRight", (h > 0));
          if (h > 0)
          {
             //Debug.Log("right");
-            fovDebug.curDir2D = FOV_Debug.direction2D.right;
+            //fovDebug.curDir2D = FOV_Debug.direction2D.right;
          }
          _animator.SetBool("MoveLeft", (h < 0));
          if (h < 0)
          {
             //Debug.Log("left");
-            fovDebug.curDir2D = FOV_Debug.direction2D.left;
+            //fovDebug.curDir2D = FOV_Debug.direction2D.left;
          }
       }
       if (h != 0)

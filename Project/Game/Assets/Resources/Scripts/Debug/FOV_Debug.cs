@@ -6,17 +6,7 @@ using System.Collections;
 public class FOV_Debug : MonoBehaviour
 {
    public bool mode3D = true;
-
-   public enum direction2D
-   {
-      left,
-      right,
-      up,
-      down
-   }
-
-   // current hero movement direction
-   public direction2D curDir2D;
+   public DirectionData.eDirection curDir2D;
 
    // params for Sight area arc
    public float radius = 10.0f;
@@ -71,7 +61,7 @@ public class DrawSolidDisc : Editor
 
          switch (myTarget.curDir2D)
          {
-            case FOV_Debug.direction2D.up:
+            case DirectionData.eDirection.NORTH:
                // direction of sight
                Handles.color = new Color(0, 1, 0, 0.3f);
                // right
@@ -90,7 +80,7 @@ public class DrawSolidDisc : Editor
                   myTarget.radius);
                break;
 
-            case FOV_Debug.direction2D.down:
+            case DirectionData.eDirection.SOUTH:
                // direction of sight
                Handles.color = new Color(0, 1, 0, 0.3f);
                // right
@@ -108,7 +98,7 @@ public class DrawSolidDisc : Editor
                   myTarget.radius);
                break;
 
-            case FOV_Debug.direction2D.left:
+            case DirectionData.eDirection.WEST:
                // direction of sight
                Handles.color = new Color(0, 1, 0, 0.3f);
                // right
@@ -126,7 +116,7 @@ public class DrawSolidDisc : Editor
                   myTarget.radius);
                break;
 
-            case FOV_Debug.direction2D.right:
+            case DirectionData.eDirection.EAST:
                // direction of sight
                Handles.color = new Color(0, 1, 0, 0.3f);
                // right

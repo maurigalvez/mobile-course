@@ -65,6 +65,7 @@
      <Compile Include="Assets\Resources\Scripts\GameLogic\Data\CollectionData.cs" />
      <Compile Include="Assets\Resources\Scripts\GameLogic\Data\CollisionData.cs" />
      <Compile Include="Assets\Resources\Scripts\GameLogic\Data\Data.cs" />
+     <Compile Include="Assets\Resources\Scripts\GameLogic\Data\DefaultAnimatorData.cs" />
      <Compile Include="Assets\Resources\Scripts\GameLogic\Data\DirectionData.cs" />
      <Compile Include="Assets\Resources\Scripts\GameLogic\Data\FloatData.cs" />
      <Compile Include="Assets\Resources\Scripts\GameLogic\Data\GUiTextData.cs" />
