@@ -140,6 +140,7 @@
     <Compile Include="Assets\Resources\Scripts\ScreenScript.cs" />
     <Compile Include="Assets\Resources\Scripts\UIManager.cs" />
     <Compile Include="Assets\Resources\Scripts\cameraScript.cs" />
+    <Compile Include="Assets\Resources\Scripts\cameraScript3D.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\2D Resources\Sprites\Items\links.txt" />
