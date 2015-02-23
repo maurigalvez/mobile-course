@@ -40,7 +40,7 @@ public class IsDamageable : Mixin
       
       // if dead - destroy obj
       if (HP.data <= 0.0f)
-         Destroy(this.gameObject);
+         SendMessage(OnDead);
    }
 
    void Update()
