@@ -33,18 +33,21 @@ public class IsDamageable : Mixin
          // check if there's a resistance to damage type
          if (r.resType == _dmsg.damageType.dType)
             dmg -= _dmsg.damageAmount * (r.resistanceChance * 0.01f);
-      }
-      // Deal the damage
-      if (HP.data > 0.0f)
-         HP.data -= dmg;
-      
-      // if dead - destroy obj
-      if (HP.data <= 0.0f)
-         Destroy(this.gameObject);
+      }     
+   }
+
+   public void Deactivate()
+   {
+      this.gameObject.SetActive(false);
    }
 
    void Update()
    {
-
+      // if dead - destroy obj
+      if (HP.data <= 0.0f)
+      {
+         SendMessage(OnDead);
+         Deactivate();
+      }
    }
 }
